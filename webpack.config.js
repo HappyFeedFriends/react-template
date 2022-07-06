@@ -83,7 +83,6 @@ module.exports = {
       template: 'src/template.ejs',
       title: `Web Developer Life`,
       containerId: 'root',
-      favicon: './src/client/images/favicon.png',
     }),
     new ForkTsCheckerWebpackPlugin({
       typescript: {
